@@ -29,8 +29,8 @@ This is a DIY Developer hack not ready for the masses as a  1-click setup. There
     
     {% highlight python %}
 payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e5-496bbb0317db", "accountName": "YOUR_ACCOUNT_NAME"}
-{% endhighlight %}
-
+	{% endhighlight %}
+    
     - Hook your Lambda function to your skill
 
 ![aws-alexa.JPG](/ask-dex/images/aws-alexa.JPG)
