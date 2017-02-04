@@ -1,3 +1,3 @@
 ## Welcome
 
-[Check it out](https://jevans12.github.io/ask-dex/) t
+[Check it out](https://jevans12.github.io/ask-dex/)
