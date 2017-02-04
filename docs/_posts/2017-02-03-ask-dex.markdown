@@ -5,9 +5,9 @@ date: '2017-02-03 22:06:34 -0500'
 categories: ask dex update
 published: true
 ---
-![aws-lambda-glucose.JPG]({{site.baseurl}}/docs/_posts/aws-lambda-glucose.JPG)
-![asw-alexa-interaction.JPG]({{site.baseurl}}/docs/_posts/asw-alexa-interaction.JPG)
-![aws-alexa.JPG]({{site.baseurl}}/docs/_posts/aws-alexa.JPG)
+![aws-lambda-glucose.JPG](/images/aws-lambda-glucose.JPG)
+![asw-alexa-interaction.JPG]({/images/asw-alexa-interaction.JPG)
+![aws-alexa.JPG](/images/aws-alexa.JPG)
 
 
 Jekyll also offers powerful support for code snippets:
