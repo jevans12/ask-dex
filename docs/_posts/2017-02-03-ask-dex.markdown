@@ -33,8 +33,6 @@ payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e
     
     
     
-    - Hook your Lambda function to your skill
-    
 ![aws-alexa.JPG](/ask-dex/images/aws-alexa.JPG)
 
 ![asw-alexa-interaction.JPG](/ask-dex/images/asw-alexa-interaction.JPG)
