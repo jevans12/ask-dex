@@ -6,8 +6,8 @@ categories: ask dex update
 published: true
 ---
 ![aws-lambda-glucose.JPG](/ask-dex/images/aws-lambda-glucose.JPG)
-![asw-alexa-interaction.JPG]({site.baseurl}/images/asw-alexa-interaction.JPG)
-![aws-alexa.JPG](/images/aws-alexa.JPG)
+![asw-alexa-interaction.JPG](/ask-dex/images/asw-alexa-interaction.JPG)
+![aws-alexa.JPG](/ask-dex/images/aws-alexa.JPG)
 
 
 Jekyll also offers powerful support for code snippets:
