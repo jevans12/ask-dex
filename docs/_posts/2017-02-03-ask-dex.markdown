@@ -19,6 +19,8 @@ AWS Developer Account
 
 1. Start Sharing from your mobile app
 2. Create a new Alexa Skill
+	Copy Intent Schema from git repo
+    Copy Utterances from git repo (Change these to whatever you want!)
 3. Create a Lambda Function
 
 ![aws-lambda-glucose.JPG](/ask-dex/images/aws-lambda-glucose.JPG)
