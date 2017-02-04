@@ -24,6 +24,9 @@ This is a DIY Developer hack not ready for the masses as a  1-click setup. There
 3. Create a Lambda Function
 	Copy the getGlucose.py to your lamdba
     Add your username and password you use for Dexcom.com
+    {% highlight python %}
+payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e5-496bbb0317db", "accountName": "YOUR_ACCOUNT_NAME"}
+{% endhighlight %}
     Hook your Lambda function to your skill
 
 ![aws-alexa.JPG](/ask-dex/images/aws-alexa.JPG)
@@ -36,6 +39,4 @@ This is a DIY Developer hack not ready for the masses as a  1-click setup. There
 
 
 
-{% highlight python %}
-payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e5-496bbb0317db", "accountName": "YOUR_ACCOUNT_NAME"}
-{% endhighlight %}
+
