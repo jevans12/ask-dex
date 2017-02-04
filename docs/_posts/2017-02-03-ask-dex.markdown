@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "Ask Dex Howto"
-date:   2017-02-03 22:06:34 -0500
+title: Ask Dex Howto
+date: '2017-02-03 22:06:34 -0500'
 categories: ask dex update
+published: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+![aws-lambda-glucose.JPG]({{site.baseurl}}/docs/_posts/aws-lambda-glucose.JPG)
+![asw-alexa-interaction.JPG]({{site.baseurl}}/docs/_posts/asw-alexa-interaction.JPG)
+![aws-alexa-config.JPG]({{site.baseurl}}/docs/_posts/aws-alexa-config.JPG)
+![aws-alexa.JPG]({{site.baseurl}}/docs/_posts/aws-alexa.JPG)
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
 
