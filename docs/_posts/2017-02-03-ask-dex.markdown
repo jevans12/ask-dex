@@ -8,10 +8,14 @@ published: true
 __Alexa, Ask Dex my glucose__
 
 
-###Disclaimer
+###
+
+Disclaimer
 This is a DIY Developer hack not ready for the masses as a  1-click setup. There are a lot of steps involved and this documentation will have its missing parts.
     
-###Prerequisites
+###
+
+Prerequisites
 Dexcom G5
 Amazon Alexa
 AWS Developer Account
