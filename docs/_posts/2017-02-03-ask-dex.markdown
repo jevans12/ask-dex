@@ -6,7 +6,7 @@ categories: ask dex update
 published: true
 ---
 ![aws-lambda-glucose.JPG](/images/aws-lambda-glucose.JPG)
-![asw-alexa-interaction.JPG]({/images/asw-alexa-interaction.JPG)
+![asw-alexa-interaction.JPG](/images/asw-alexa-interaction.JPG)
 ![aws-alexa.JPG](/images/aws-alexa.JPG)
 
 
