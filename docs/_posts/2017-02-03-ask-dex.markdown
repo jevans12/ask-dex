@@ -5,7 +5,7 @@ date: '2017-02-03 22:06:34 -0500'
 categories: ask dex update
 published: true
 ---
-![aws-lambda-glucose.JPG](/images/aws-lambda-glucose.JPG)
+![aws-lambda-glucose.JPG](/ask-dex/images/aws-lambda-glucose.JPG)
 ![asw-alexa-interaction.JPG]({site.baseurl}/images/asw-alexa-interaction.JPG)
 ![aws-alexa.JPG](/images/aws-alexa.JPG)
 
