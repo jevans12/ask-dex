@@ -1,0 +1,4 @@
+GetGlucoseNow what is my glucose reading
+GetGlucoseNow tell me my glucose 
+GetGlucoseNow my glucose
+GetGlucoseNow glucose 
