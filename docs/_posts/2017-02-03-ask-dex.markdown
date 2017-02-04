@@ -38,6 +38,10 @@ payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e
 
 
 
+## Links
+[Alexa Getting Started](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide)
+[AWS Lambda](https://aws.amazon.com/lambda/)
+
 
 
 
