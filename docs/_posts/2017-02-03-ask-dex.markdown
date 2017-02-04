@@ -7,7 +7,6 @@ published: true
 ---
 ![aws-lambda-glucose.JPG]({{site.baseurl}}/docs/_posts/aws-lambda-glucose.JPG)
 ![asw-alexa-interaction.JPG]({{site.baseurl}}/docs/_posts/asw-alexa-interaction.JPG)
-![aws-alexa-config.JPG]({{site.baseurl}}/docs/_posts/aws-alexa-config.JPG)
 ![aws-alexa.JPG]({{site.baseurl}}/docs/_posts/aws-alexa.JPG)
 
 
