@@ -32,15 +32,11 @@ payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e
 	{% endhighlight %}
     
     - Hook your Lambda function to your skill
-
 ![aws-alexa.JPG](/ask-dex/images/aws-alexa.JPG)
 
 ![asw-alexa-interaction.JPG](/ask-dex/images/asw-alexa-interaction.JPG)
 
 ![aws-lambda-glucose.JPG](/ask-dex/images/aws-lambda-glucose.JPG)
-{% highlight python %}
-payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e5-496bbb0317db", "accountName": "YOUR_ACCOUNT_NAME"}
-{% endhighlight %}
 
 
 ## Links
