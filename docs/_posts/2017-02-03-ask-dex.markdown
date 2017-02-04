@@ -23,9 +23,11 @@ AWS Developer Account
     Copy Utterances from git repo (Change these to whatever you want!)
 3. Create a Lambda Function
 
-![aws-lambda-glucose.JPG](/ask-dex/images/aws-lambda-glucose.JPG)
-![asw-alexa-interaction.JPG](/ask-dex/images/asw-alexa-interaction.JPG)
 ![aws-alexa.JPG](/ask-dex/images/aws-alexa.JPG)
+![asw-alexa-interaction.JPG](/ask-dex/images/asw-alexa-interaction.JPG)
+![aws-lambda-glucose.JPG](/ask-dex/images/aws-lambda-glucose.JPG)
+
+
 
 
 Jekyll also offers powerful support for code snippets:
