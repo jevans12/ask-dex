@@ -16,6 +16,7 @@ This is a DIY Developer hack not ready for the masses as a  1-click setup. There
 2. Amazon Alexa
 3. AWS Developer Account
 
+[GIT Repo](https://github.com/jevans12/ask-dex "Code")
 
 1. Start Sharing from your mobile app
 2. Create a new Alexa Skill
