@@ -24,8 +24,10 @@ This is a DIY Developer hack not ready for the masses as a  1-click setup. There
 	- Copy Intent Schema from git repo
     - Copy Utterances from git repo (Change these to whatever you want!)
 3. Create a Lambda Function
-	- Copy the getGlucose.py to your lamdba
-    - Add your username and password you use for Dexcom.com   
+	- Select blueprint : Select Blank Function
+	- Configure triggers : Select Alexa Skills Kit -> Lambda
+	- Configure function : Set name to getMyGlucose and Runtime to Python 2.7. Copy the getGlucose.py to your lamdba
+    - Update the code and Add your username and password you use for Dexcom.com   
     
     {% highlight python %}
 payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e5-496bbb0317db", "accountName": "YOUR_ACCOUNT_NAME"}
