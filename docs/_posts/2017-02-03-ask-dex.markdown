@@ -42,7 +42,7 @@ payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e
     	- Set your Endpoint ARN to your lambda function
 	- Test
 	- Publishing Information
-     ![skill.PNG](/ask-dex/images/skill.PNG){:height="330px" width="400px"}
+     ![skill.PNG](/ask-dex/images/skill.PNG){:height="400px" width="320px"}
      
 
 ![aws-alexa.JPG](/ask-dex/images/aws-alexa.JPG)
