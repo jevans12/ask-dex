@@ -23,7 +23,7 @@ This is a DIY Developer hack not ready for the masses as a  1-click setup. There
 2. Create a new Alexa Skill
 	- Copy Intent Schema from git repo
     - Copy Utterances from git repo (Change these to whatever you want!)
-     ![skill.PNG](/ask-dex/images/skill.PNG)
+     ![skill.PNG](/ask-dex/images/skill.PNG){:height="36px" width="36px"}
 3. Create a Lambda Function
 	- Select blueprint : Select Blank Function
 	- Configure triggers : Select Alexa Skills Kit -> Lambda
