@@ -23,6 +23,7 @@ This is a DIY Developer hack not ready for the masses as a  1-click setup. There
 2. Create a new Alexa Skill
 	- Copy Intent Schema from git repo
     - Copy Utterances from git repo (Change these to whatever you want!)
+     ![skill.PNG](/ask-dex/images/skill.PNG)
 3. Create a Lambda Function
 	- Select blueprint : Select Blank Function
 	- Configure triggers : Select Alexa Skills Kit -> Lambda
@@ -49,7 +50,3 @@ payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e
 ## Links
 - [Alexa Getting Started](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide)
 - [AWS Lambda](https://aws.amazon.com/lambda/)
-
-
-
-
