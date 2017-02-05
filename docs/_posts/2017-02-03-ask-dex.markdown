@@ -36,17 +36,16 @@ payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e
 
 3. Create a new Alexa Skill
 
- 	- Skill Information
-    	- Set your Invocation name to Dex, or customize!
-        
-	- Interaction Model
-    	- Copy Intent Schema from git repo
-    	- Copy Utterances from git repo (Change these to whatever you want!)
-	- Configuration
-    	- Set your Endpoint ARN to your lambda function
-	- Test
-	- Publishing Information
-    
+   - Skill Information
+     - Set your Invocation name to Dex, or customize!
+   - Interaction Model
+     - Copy Intent Schema from git repo
+     - Copy Utterances from git repo (Change these to whatever you want!)
+   - Configuration
+     - Set your Endpoint ARN to your lambda function
+   - Test
+   - Publishing Information
+   
      ![skill.PNG](/ask-dex/images/skill.PNG){:height="400px" width="320px"}
      
 
