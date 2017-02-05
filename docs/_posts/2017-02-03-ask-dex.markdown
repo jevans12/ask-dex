@@ -5,7 +5,7 @@ date: '2017-02-03 22:06:34 -0500'
 categories: ask dex update
 published: true
 ---
-__Alexa, Ask Dex my glucose__
+__Alexa, Ask Dex get glucose__
 
 
 ### Disclaimer
