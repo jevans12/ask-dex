@@ -60,7 +60,6 @@ def get_my_glucose_in_session(intent, session):
     card_title = intent['name']
     should_end_session = True
     method = "POST"
-    trendtext = ""
     handler = urllib2.HTTPHandler()
     opener = urllib2.build_opener(handler)
     sessionIdUrl = 'https://share1.dexcom.com/ShareWebServices/Services/General/LoginPublisherAccountByName'
@@ -80,7 +79,7 @@ def get_my_glucose_in_session(intent, session):
         connection = e
     if connection.code == 200:
         sessionID = connection.read()
-        #Strip Qoutes
+        #Strip Quotes
         sessionID = sessionID[1:-1]
     else:
         print(connection.code)
@@ -106,7 +105,9 @@ def get_my_glucose_in_session(intent, session):
         
     else:
         print(connection2.code)
-    
+        
+    if trend == 0:
+        trendtext = ""
     if trend == 1:
         trendtext = "rising quickly"
     if trend == 2:
