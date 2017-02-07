@@ -31,8 +31,8 @@ This is a DIY Developer hack not ready for the masses as a 1-click setup.
 payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e5-496bbb0317db", "accountName": "YOUR_ACCOUNT_NAME"}
 {% endhighlight %}
      
-    - Lambda function handler and role #TODO DOC
-    - Finish with create and Note the ARN in the upper right hand corner of your function landing page. You will need this to tie Alexa to your lambda funtion.    
+   - Lambda function handler and role #TODO DOC
+   - Finish with create and Note the ARN in the upper right hand corner of your function landing page. You will need this to tie Alexa to your lambda funtion.    
 
 3. Create a new Alexa Skill
 
