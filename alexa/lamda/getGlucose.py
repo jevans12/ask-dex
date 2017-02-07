@@ -60,6 +60,7 @@ def get_my_glucose_in_session(intent, session):
     card_title = intent['name']
     should_end_session = True
     method = "POST"
+    trendtext = ""
     handler = urllib2.HTTPHandler()
     opener = urllib2.build_opener(handler)
     sessionIdUrl = 'https://share1.dexcom.com/ShareWebServices/Services/General/LoginPublisherAccountByName'
@@ -97,7 +98,7 @@ def get_my_glucose_in_session(intent, session):
         connection2 = opener.open(glucoseRequest, json.dumps(emptyLoad)) 
     except urllib2.HTTPError,e:
         connection2 = e
-    if connection.code == 200:
+    if connection2.code == 200:
         glucoseReading = connection2.read()
         glucoseReading = json.loads(glucoseReading)
         glucose = glucoseReading[0]["Value"]
