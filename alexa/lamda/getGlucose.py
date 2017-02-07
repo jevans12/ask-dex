@@ -94,17 +94,38 @@ def get_my_glucose_in_session(intent, session):
     emptyLoad ={"":""}
     try:
         #POST to Service with an empty payload or else you'll get a 405
-        connection = opener.open(glucoseRequest, json.dumps(emptyLoad)) 
+        connection2 = opener.open(glucoseRequest, json.dumps(emptyLoad)) 
     except urllib2.HTTPError,e:
         connection2 = e
     if connection.code == 200:
-        glucoseReading = connection.read()
+        glucoseReading = connection2.read()
         glucoseReading = json.loads(glucoseReading)
-        glucose = glucoseReading[0]["Value"]     
+        glucose = glucoseReading[0]["Value"]
+        trend = glucoseReading[0]["Trend"]
+        
     else:
         print(connection2.code)
     
-    speech_output = "Your glucose is " + str(glucose)
+    if trend == 1:
+        trendtext = "rising quickly"
+    if trend == 2:
+        trendtext = "rising"
+    if trend == 3: 
+        trendtext = "rising slightly"
+    if trend == 4:
+        trendtext = "steady"
+    if trend == 5:
+        trendtext = "falling slightly"
+    if trend == 6:
+        trendtext = "falling"
+    if trend == 7:
+        trendtext = "falling quickly"
+    if trend == 8:
+        trendtext = "unable to determine a trend"
+    if trend == 9:
+        trendtext = "trend unavailable"
+        
+    speech_output = "Your glucose is " + str(glucose) + "and " + str(trendtext)
    
     return build_response({},build_speechlet_response(
         card_title, speech_output, should_end_session))
