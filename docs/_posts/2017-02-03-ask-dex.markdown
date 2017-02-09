@@ -21,7 +21,7 @@ This is a DIY Developer hack not ready for the masses as a 1-click setup.
 [Source code GIT Repo](https://github.com/jevans12/ask-dex "Code")
 
 1. Start Sharing from your mobile app
-2. Create a Lambda Function
+2. Create a Lambda Function [AWS Howto](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function)
 	- Select blueprint : Select Blank Function
 	- Configure triggers : Select Alexa Skills Kit -> Lambda
 	- Configure function : Set name to getglucose and Runtime to Python 2.7. Copy the getGlucose.py from the GIT repo to your lambda function
@@ -31,7 +31,7 @@ This is a DIY Developer hack not ready for the masses as a 1-click setup.
 payload ={"password": "YOUR_PASSWORD", "applicationId" : "d89443d2-327c-4a6f-89e5-496bbb0317db", "accountName": "YOUR_ACCOUNT_NAME"}
 {% endhighlight %}
      
-   - Lambda function handler and role #TODO DOC
+   - Set Lambda function Role to Create a New Role From Template and give it a name then choose Simple Microservice permissions. 
    - Finish with create and Note the ARN in the upper right hand corner of your function landing page. You will need this to tie Alexa to your lambda funtion.    
 
 3. Create a new Alexa Skill
